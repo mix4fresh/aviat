@@ -1,0 +1,88 @@
+/*追記用CSS*/
+
+/*フォント用*/
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
+
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url(../img/main_back.jpg) center center / cover no-repeat fixed;
+  font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  color: rgba(131,91,5,0.7);
+}
+
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  -o-border-radius: 250px;
+  -ms-border-radius: 250px; 
+  border-radius: 250px;
+  border: 5px solid #fff;
+}
+
+.carousel-inner {
+  top: 70px;
+}
+
+.item .ans {
+  position: relative;
+  /*width: 460px;*/
+  right: 5%;
+  height: 200px;
+}
+
+.item .match {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  border: 2px solid #f5e527;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;  
+  -moz-border-radius: 10px;
+}
+
+.item .person {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  border: 2px solid #f5e527;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;  
+  -moz-border-radius: 10px;
+}
+
+.item .yammer {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  border: 2px solid #f5e527;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;  
+  -moz-border-radius: 10px;
+}
+
+/*バルーンにしようと思ったけどやめたやつ*/
+/*透過が面倒だった*/
+
+.left_balloon {
+  position: relative;
+  border: 2px dotted #f5e527;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 20%;
+  clear: both;
+  max-width: 500px;
+  float: left;
+}
+
+ 

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--sansan研修用サンプルのやつ
+    マイページを表示するやつ
+    bootstrap3を用いています
+    lonelyテンプレートを用いています
+    (file:///Users/user/Downloads/Lonely/index.html)
+    icon用にfontAwesomeを使っています-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sansan ✕ Manny</title>
+
+  <!-- css -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <!-- lonely css -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/nivo-lightbox.css" rel="stylesheet" />
+  <link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/owl.carousel.css" rel="stylesheet" media="screen" />
+  <link href="css/owl.theme.css" rel="stylesheet" media="screen" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/calendar.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+  <!-- code tabs -->
+  <link href="codetabs/codetabs.css" rel="stylesheet">
+  <link href="codetabs/code.animate.css" rel="stylesheet">
+
+  <style type="text/css">
+  .intro {
+    background-image: url("img/background.jpg");
+    background-position: center center;
+  }
+  .slogan img {
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    box-shadow: 5px 5px 5px black;
+  }
+  </style> 
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <!-- 読み込み 合った方がよい -->
+  <div id="preloader">
+   <div id="load"></div>
+  </div>
+
+  <!-- Section: intro -->
+  <!-- 一番上アイコンと写真を用意>style.css -->
+  <section id="intro" class="intro">
+
+    <div class="slogan">
+      <a href="index.html"><img src="img/profile.jpg" alt="" /></a>
+    </div>
+    <div class="page-scroll">
+      <a href="#about">
+        <i class="fa fa-angle-down fa-5x animated"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Navigation -->
+  <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#intro">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#calendar">My schedule</a></li>
+                <li><a href="#contact">Talk to me</a></li>
+              </ul>
+            </div>
+            <!-- end Navbar-collapse -->
+
+          </div>
+        </div>
+      </div>
+  <!-- end container -->
+    </nav>
+  </div>
+  <!-- end Navigation -->
+
+<!-- Section: about -->
+  <section id="about" class="home-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+
+          <div class="section-heading text-center">
+            <div class="wow bounceInDown" data-wow-delay="0.2s">
+              <h2>My name is Fozilov</h2>
+            </div>
+              <p class="wow bounceInUp" data-wow-delay="0.3s">I am excited to be a part of Sansan</p>
+			</div>
+
+        </div>
+      </div>
+    </div>
+
+	<div class="container">
+	  <div class="row">
+        <div class="col-md-6">
+
+           <img src="img/osh.jpg" class="img-responsive img-rounded" alt="" />
+        </div>
+        <div class="col-md-6">
+          <p><strong>be great, be bold, be grand!</strong></p>
+          <p>
+            はじめまして！エンジニアとしてEightに入るフォジロフと申します。<br />
+            どうぞメンニとお呼びください。<br />
+            私は英語、日本語、タジキ語、ロシア語はなせますから、お好みの言語でお話ください！<br />
+            これからよろしくお願いします！
+          </p>
+          <blockquote>
+            誕生日: 1991.3.21<br />
+            出身: タジキスタン<br />
+            経歴: 大阪清風情報工科学院＞群馬大学工学部。<br />
+            趣味: サッカー、卓球、読書、ハイキング
+          </blockquote>
+
+          <a href="https://www.facebook.com/manny.fozilov" target="_blank" class="btn btn-skin btn-lg btn-scroll">See my Facebook</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+
+  <!-- Section: separator -->
+  <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4">
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <div class="align-center txt-shadow">
+            <img src="img/innocent.jpg" class="img-responsive img-rounded" alt="" />
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end separator -->
+
+
+    <!-- Section: Calendar -->
+  <!-- TODO Calendarの仕様を考える > GoogleCalendarとの同期など-->
+  <section id="calendar" class="home-section text-center bg-gray">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="wow bounceInDown" data-wow-delay="0.4s">
+      <div class="section-heading">
+        <h2>My Schedule</h2>
+        <p>Let's have Lunch :)</p>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<a id="api-prev" class="btn btn-api" href="#">prev manth</a>
+<a id="api-next" class="btn btn-api" href="#">next manth</a>
+  <div class="container" style="text-align: center;">
+    <div class="calendar-container" style="margin:0 auto;">
+        <header>
+          <div id="text" class="month">December</div>
+          <div class="ring-left"></div>
+        <div class="ring-right"></div>
+        </header>
+
+      <div class="ct ct-slider" data-tabs="isAutoRun-on fxOne-fall speed-1000 delay-5000 pag-{align:center} isPag-false">
+      <!-- slide1 -->
+      <div>
+        <table class="calendar">
+          <thead><tr><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td><td>Sun</td></tr></thead>
+          <tbody>
+            <tr>
+              <td class="prev-month">29</td>
+              <td class="prev-month">30</td>
+              <td class="prev-month">31</td>
+              <td>1</td><td>2</td><td>3</td><td>4</td>
+            </tr>
+            <tr>
+              <td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+            </tr>
+            <tr>
+              <td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+            </tr>
+            <tr>
+              <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+              <td class="next-month">1</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>        <!-- end slide1 -->
+
+    <!-- slide2 -->
+      <div>
+        <table class="calendar">
+          <thead><tr><td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td>Sat</td><td>Sun</td></tr></thead>
+          <tbody>
+            <tr>
+              <td class="prev-month">29</td>
+              <td class="prev-month">30</td>
+              <td class="prev-month">31</td>
+              <td>1</td><td>2</td><td>3</td><td>4</td>
+            </tr>
+            <tr>
+              <td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+            </tr>
+            <tr>
+              <td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              <td class="current-day">18</td>
+            </tr>
+            <tr>
+              <td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+            </tr>
+            <tr>
+              <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+              <td class="next-month">1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>        <!-- end slide1 -->
+
+    </div> <!-- end ct -->
+    </div> <!-- end container -->
+  </section>
+  <!-- end services -->
+
+
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section text-center">
+    <div class="heading-contact">
+      <div class="container">
+		<div class="row">
+          <div class="col-lg-8 col-md-offset-2">
+            <div class="section-heading">
+              <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <h2>Email are welcome</h2>
+              </div>
+			  <p class="wow lightSpeedIn" data-wow-delay="0.3s">Gentleman, introduce your self and get in touch with me privately</p>
+			</div>
+
+		  </div>
+		</div>
+	</div>
+	</div>
+
+    <!-- TODO メール機能未実装 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-offset-2">
+          <div class="form-wrapper marginbot-50">
+            <form id="contact-form">
+              <div class="row">
+                <div class="form-group">
+                  <label for="name">
+                    Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                </div>
+                <div class="form-group">
+                  <label for="email">
+                    Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                </div>
+
+                <div class="form-group">
+                  <label for="name">
+                    Message</label>
+                  <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                  placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-skin btn-block" id="btnContactUs">
+                    Send Message</button>
+
+              </div>
+            </form>
+            <!-- end form -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact -->
+
+  <!-- footerからリンクを外すにはライセンスが必要 9ドルくらい-->
+  <footer>
+	<div class="container">
+	  <div class="row">
+		<div class="col-md-12 col-lg-12">
+          <p>&copy;Copyright 2014 .design by <a href="http://bootstraptaste.co">Bootstrap Themes</a></p>
+          <p>and sansan 17's member</p>
+        </div>
+        <!--All links in the footer should remain intact.
+            Licenseing information is available at: http://bootstraptaste.com/license/
+            You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Lonely
+        -->
+	  </div>
+    </div>
+  </footer>
+
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/nivo-lightbox.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <!-- code tabs -->
+  <script src="codetabs/codetabs.js"></script>
+  <!-- origin -->
+  <script type="text/javascript">
+        jQuery(document).ready(function($) {
+
+            /* Setup add remove slide */
+            var code = $('.ct').data('codetabs');
+            var manth = new Array();
+                manth[0] = "December";
+                manth[1] = "January";
+            var i=0;
+
+            // next slide setup
+            $('#api-next').on('click', function(e) {
+              if (code.curId() != code.slideLength()-1 ){
+                code.next();
+                i = i+1;
+                document.getElementById("text").innerHTML=manth[i];
+              };
+                return false;
+            });
+
+            // prev slide setup
+            $('#api-prev').on('click', function(e) {
+              if (code.curId() != 0){
+                code.prev();
+                i = i-1;
+                document.getElementById("text").innerHTML=manth[i];
+              };
+                return false;
+            });
+        });
+  </script>
+</body>
+</html>
+

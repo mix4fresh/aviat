@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--sansan研修用サンプルのやつ
+    mainとなるQandAするやつ
+    bootstrap3を用いています
+    HTML直書きが多いので修正しておきます-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sansan - MATCH</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/origin.css"/>
+</head>
+ 
+
+<body>
+
+<!-- ロゴ -->
+<div style="text-align:center" style="position:relative;">
+  <img src="img/logo.png" style="position:relative; top:30px;" >
+</div>
+<div style="text-align:center" style="position:relative;">
+  <img src="img/join.png" style="position:relative; top:50px;" >
+</div>
+
+
+<!-- 枠組み -->
+<!-- TODO make_wrappar_CSS -->
+<div style="position:relative; top:70px;height:70%;width:100%">
+  <div class="center-block text-center" style="position:absolute;height:100%;width:80%;left:10%;">
+
+    <!-- bootstrapのcarouselを用いたスライド-->
+    <!-- TODO ランダム表示 jQueryかJS -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:100%;">
+      
+      <!-- スライド -->
+      <div class="carousel-inner">
+        
+        <!-- インナー要素 1 -->
+        <!-- TODO make_elements_CSS-->
+        <div class="item active" style="height:100%;">
+          
+          <div class="container-fluid" style="height:100%;">
+            <!-- アイコンとanswer -->
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-3"><img class="circle" src="img/icon1_2.png" align="left"></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-4">
+                <div class="ans">
+                  <h3 class="text-left">Q.お肉が食べたいですか？<br><br>A.kawai<br>とっても食べたいです！！なぜなら私はお肉が好きだからです！！</h3>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
+            </div>
+            <!-- リンク -->
+            <!-- TODO make_CSS -->
+            <div class="row">
+              <div class="col-md-7"></div>
+              <div class="col-md-1">
+                <div class="match">
+                  <i class="fa fa-thumbs-o-up"></i>
+                </div>
+              </div>
+              <div class="col-md-1">
+                <a href="kawai.html" target="_blank">
+                  <div class="person">
+                    <i class="fa fa-user"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-1">
+                <div class="yammer">
+                  <i class="fa fa-yahoo"></i>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+          <!-- end container -->
+          </div>
+        <!-- end item -->
+        </div>
+
+
+        <!-- インナー要素 2 -->
+        <div class="item" style="height:100%;">
+          
+          <!-- アイコンとanswer -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3"><img class="circle" src="img/icon2_2.jpg" align="left"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <div class="ans">
+                <h3 class="text-left">Q.どんなランチがすき？<br><br>A.yagyu<br>肉です！！肉があれば生きていけます！！にくにくにく〜ｗ寿司も良いけど肉〜〜〜！！</h3>
+                </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+          <!-- リンク -->
+          <!-- TODO make_CSS -->
+          <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-1">
+              <div class="match">
+                <i class="fa fa-thumbs-o-up"></i>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <a href="kawai.html" target="_blank">
+                <div class="person">
+                  <i class="fa fa-user"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-1">
+              <div class="yammer">
+                <i class="fa fa-yahoo"></i>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+
+        <!-- インナー要素 3 -->
+        <div class="item" style="height:100%;">
+          
+          <!-- アイコンとanswer -->
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-3"><img class="circle" src="img/icon3_2.jpg" align="left"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <div class="ans">
+                <h3 class="text-left">Q.アダ名はなんですか？<br><br>A.nanase<br>ななせです。なんか色々あってななせです。</h3>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+          <!-- リンク -->
+          <!-- TODO make_CSS -->
+          <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-1">
+              <div class="match">
+                <i class="fa fa-thumbs-o-up"></i>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <a href="kawai.html" target="_blank">
+                <div class="person">
+                  <i class="fa fa-user"></i>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-1">
+              <div class="yammer">
+                <i class="fa fa-yahoo"></i>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+
+      <!-- end スライド-->
+      </div>
+
+      <!-- サイドスライダー -->
+      <a class="carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="left:-10%;"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="left:95%;"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+    <!-- end carousel slide -->
+    </div>
+  <!-- end center-block -->
+  </div>
+<!-- end position:relative-->
+</div>
+
+
+<!-- script -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+</html>
